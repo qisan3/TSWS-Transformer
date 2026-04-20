@@ -1,0 +1,23 @@
+# IDEs and Caches
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Datasets (Raw and Processed)
+# We ignore the heavy files but keep the folder structures if needed
+tcdata/
+processed_data/*.ts
+*.zip
+*.csv
+*.tar
+*.tar.gz
+
+# Model Weights and Experiment Logs
+# Exclude the heavy training folder entirely to keep the repo clean
+raw_data/
+experiments/
+submission_docker/model/
+*.pth
+submission_docker/tcdata/
+submission_docker/work/
